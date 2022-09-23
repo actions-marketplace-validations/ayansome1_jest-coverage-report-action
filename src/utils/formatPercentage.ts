@@ -8,13 +8,9 @@ export const formatPercentage = (
     headPercentage: number,
     basePercentage: number = headPercentage
 ) => {
-    // const delta = headPercentage - basePercentage;
-    const delta = 6;
+    const delta = headPercentage - basePercentage;
 
-
-    // const isDeltaValid = Math.abs(delta) > APPROXIMATION_THRESHOLD;
-    const isDeltaValid = true;
-
+    const isDeltaValid = Math.abs(delta) > APPROXIMATION_THRESHOLD;
 
     return i18n(
         isDeltaValid
