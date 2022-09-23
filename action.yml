@@ -1,6 +1,6 @@
-name: 'Jest coverage report'
+name: 'Jest coverage report tweaked  by Ayan'
 description: 'Track your code coverage in each pull request.'
-author: 'Artiom Tretjakovas <artiom.tretjakovas2@gmail.com>'
+author: 'Ayan Some <ayansome1@gmail.com>'
 branding:
     icon: 'activity'
     color: 'gray-dark'
